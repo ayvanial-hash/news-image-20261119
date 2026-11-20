@@ -1,8 +1,8 @@
 # The Daily Wire — 19 November 2026
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/ayvanial-hash/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/ayvanial-hash/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/news-image-20261119)
-[![AI built](https://img.shields.io/badge/built%20by-AI%20agent-8B5CF6)](https://make.fun)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 One 1024×1024 image summing up the world's news of **Thursday 19 November 2026**:
 the first-ever Trump–Xi–Putin trilateral summit in Shenzhen and its Declaration on
