@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Daily Wire</title>
+    <style>
+        body { width: 1024px; height: 1024px; font-family: 'Georgia', serif; margin: 0; padding: 10px; box-sizing: border-box; background: #fff; display: flex; flex-direction: column; }
+        .masthead-band { background: #000080; color: #fff; text-align: center; padding: 10px 0; border-bottom: 3px solid red; }
+        .masthead { font-size: 70px; font-weight: bold; }
+        .dateline { text-align: center; font-size: 20px; font-style: italic; padding: 5px 0; }
+        .container { flex: 1; display: grid; grid-template-columns: 2fr 1fr; gap: 15px; margin-top: 10px; padding-bottom: 10px; }
+        .story { margin-bottom: 25px; }
+        .story h2 { margin: 0 0 10px 0; font-size: 26px; text-transform: uppercase; display: flex; align-items: center; gap: 10px; }
+        .story p { font-size: 18px; line-height: 1.5; margin: 0; }
+        .side-column { border-left: 1px solid #ccc; padding-left: 15px; }
+        .side-column h2 { font-size: 22px; margin: 0 0 15px; }
+        .side-column p { font-size: 16px; line-height: 1.4; margin-bottom: 15px; }
+        .market-strip { background: #fee; padding: 10px; border: 1px solid red; color: red; font-weight: bold; margin-bottom: 10px; }
+        .market-item { display: flex; align-items: center; gap: 5px; }
+        .brief-list { font-size: 16px; list-style-type: none; padding: 0; }
+        .brief-list li { margin-bottom: 10px; }
+        .footer-band { height: 90px; background: #000080; color: #fff; display: flex; justify-content: space-between; align-items: center; padding: 0 15px; font-size: 14px; position: absolute; bottom: 0; left: 0; width: 1024px; box-sizing: border-box; }
+    </style>
+</head>
+<body>
+    <div class="masthead-band">
+        <div class="masthead">THE DAILY WIRE</div>
+    </div>
+    <div class="dateline">19 November 2026</div>
+    <div class="container">
+        <div class="main-content">
+            <div class="story">
+                <h2>
+                    <svg width="60" height="40" viewBox="0 0 60 40">
+                        <rect width="60" height="40" fill="red"/>
+                        <circle cx="15" cy="10" r="3" fill="yellow"/><circle cx="20" cy="5" r="1" fill="yellow"/><circle cx="22" cy="8" r="1" fill="yellow"/><circle cx="22" cy="12" r="1" fill="yellow"/><circle cx="20" cy="15" r="1" fill="yellow"/>
+                    </svg>
+                    <svg width="60" height="40" viewBox="0 0 60 40">
+                        <rect width="60" height="40" fill="white"/>
+                        <rect width="60" height="15" fill="red"/><rect width="60" height="5" y="15" fill="white"/><rect width="60" height="5" y="20" fill="red"/><rect width="60" height="5" y="25" fill="white"/><rect width="60" height="5" y="30" fill="red"/><rect width="60" height="5" y="35" fill="white"/>
+                        <rect width="25" height="20" fill="blue"/>
+                    </svg>
+                    <svg width="60" height="40" viewBox="0 0 60 40">
+                        <rect width="60" height="13.3" fill="white"/><rect width="60" height="13.3" y="13.3" fill="blue"/><rect width="60" height="13.4" y="26.6" fill="red"/>
+                    </svg>
+                    Trilateral Summit: Trump, Xi, Putin in Shenzhen
+                </h2>
+                <p>In a historic first, US President Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin met in Shenzhen for three-way talks on the sidelines of APEC. They signed a joint "Declaration on Peace," focusing on energy flows and nuclear arms limits, though skeptics remain.</p>
+            </div>
+            <div class="story">
+                <h2><svg width="30" height="30" viewBox="0 0 30 30"><path d="M15 2 L25 10 L25 25 L5 25 L5 10 Z" fill="none" stroke="gold" stroke-width="2"/><path d="M15 2 L15 25 M5 10 L25 10" stroke="gold" stroke-width="2"/><circle cx="15" cy="2" r="2" fill="gold"/></svg> ICJ Rules Myanmar Committed Genocide</h2>
+                <p>The International Court of Justice in The Hague has issued a landmark judgment in the case of The Gambia v. Myanmar, ruling that Myanmar committed genocide against the Rohingya minority during the 2017 "clearance operations."</p>
+            </div>
+            <div class="story">
+                <h2>Markets Plunge Below 50,000</h2>
+                <div class="market-strip">
+                    <div class="market-item"><span>&#x2193;</span> Dow: -2.19% (49,850)</div>
+                    <div class="market-item"><span>&#x2193;</span> S&amp;P: -2.02%</div>
+                    <div class="market-item"><span>&#x2193;</span> Nasdaq: -2.25%</div>
+                </div>
+                <p>The Dow Jones Industrial Average dropped 1,101 points (-2.19%) to close below 50,000. S&P 500 fell 2% and Nasdaq tumbled over 2%. The selloff was accelerated by the underwhelming IPO of Anthropic, dragging tech and AI stocks lower.</p>
+            </div>
+            <div class="story">
+                <h2><svg width="30" height="30" viewBox="0 0 30 30"><path d="M15 5 C10 5 5 10 5 15 C5 20 10 25 15 25 C20 25 25 20 25 15 C25 10 20 5 15 5 Z" fill="none" stroke="blue" stroke-width="2"/><path d="M15 5 L15 15 L25 15" stroke="blue" stroke-width="2"/></svg> Cyclone Akvan Threatens Odisha</h2>
+                <p>Cyclone Akvan is intensifying as it approaches the coast of Odisha, India. Authorities have evacuated over 100,000 people ahead of Friday landfall.</p>
+            </div>
+        </div>
+        <div class="side-column">
+            <h2>Ukraine Crisis</h2>
+            <p>A Russian drone strike significantly damaged the Dutch embassy and a historic cathedral in Ukraine today. Meanwhile, Jared Kushner indicated that Russia is "comfortable" with potential NATO-like security guarantees for Ukraine as allies gathered in Berlin to discuss the ongoing conflict.</p>
+            <br>
+            <h2>Berlin Talks</h2>
+            <p>Allies met in Berlin to discuss security guarantees for Ukraine.</p>
+            <br>
+            <h2>In Brief</h2>
+            <ul class="brief-list">
+                <li>ICJ ruling The Hague</li>
+                <li>Tech: Anthropic $81.3B IPO selloff</li>
+                <li>Oil Brent flat on Hormuz disruptions</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-band">
+        <div>OIL: Brent flat — Hormuz tanker disruptions offset surplus fears (Reuters)</div>
+        <div>GTA VI: 13 years after GTA V, Rockstar's sequel era begins</div>
+        <div>thewire.example — Page One</div>
+    </div>
+</body>
+</html>
